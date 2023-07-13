@@ -1,0 +1,37 @@
+.EpisodeHeader {
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../pictures/coverheader.jpg');
+}
+
+.EpisodeHeader-h1 {
+    font-size: 65px;
+    color: #FFF;
+}
+
+.EpisodeHeader-h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.EpisodeHeader-p {
+    color: #FFF;
+}
+
+.EpisodeHeader-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.EpisodeHeader-buttons button {
+    padding: 0.8rem 3rem;
+    background-color: black;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    font-size: 22px;
+    color: #FFF;
+}

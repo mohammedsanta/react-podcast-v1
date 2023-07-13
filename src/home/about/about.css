@@ -1,0 +1,43 @@
+.about {
+    
+}
+
+.about-header {
+    display: flex;
+    position: relative;
+}
+
+.about-header-words {
+    background-color: #000000a8;
+    position: absolute;
+    z-index: 1;
+    top: 5rem;
+    left: 12rem;
+    width: 50%;
+    color: cornflowerblue;
+}
+
+.about-header-words-h1 {
+    font-size: 55px;
+}
+
+.about-header-words-h2 {
+    font-size: 33px;
+}
+
+.about-header-pic {
+    width: 40%;
+    height: 700px;
+    position: relative;
+    left: 60rem;
+    top: 3rem;
+}
+
+.about-header-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-header-words-about {
+    font-size: 25px;
+}

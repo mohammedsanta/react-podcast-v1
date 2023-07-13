@@ -1,0 +1,56 @@
+
+
+
+.container-pic {
+    height: 100%;
+    position: relative;
+}
+
+.left-arrow-style {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: -200px;
+    font-size: 45px;
+    color: #FFF;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right-arrow-style {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: -200px;
+    font-size: 45px;
+    color: #FFF;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right-arrow-style {
+
+}
+
+.slider-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 5%;
+    right: 37%;
+    color: #FFF;
+}
+
+.slider-numbers div {
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #5c2892;
+    padding: 0.1rem 1.1rem;
+    border-radius: 60%;
+}
+
+
+.slide-active {
+    color: black;
+}
