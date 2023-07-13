@@ -19,17 +19,17 @@ const HeaderSection = () => {
 
     <Header />
 
-    <div class="header-section">
+    <div className="header-section">
 
-        <h1 class="header-section-h1">A Podcast About <br/> <span class="header-section-h1-span">Design, Travel & Fashion</span></h1>
+        <h1 className="header-section-h1">A Podcast About <br/> <span className="header-section-h1-span">Design, Travel & Fashion</span></h1>
 
         <Slider slides={slides} />
 
-        <div class="header-section-bottom">
+        <div className="header-section-bottom">
 
-            <div class="header-section-bottom-more">
+            <div className="header-section-bottom-more">
 
-                <p>VIEW MORE FEATURED EPISODE <i class="fa-regular fa-arrow-right"></i></p>
+                <p>VIEW MORE FEATURED EPISODE <i className="fa-regular fa-arrow-right"></i></p>
 
             </div>
 

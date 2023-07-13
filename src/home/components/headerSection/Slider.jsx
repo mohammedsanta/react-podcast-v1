@@ -57,7 +57,7 @@ const Slider = ({slides}) => {
     return (
     <>
     
-    <div class="header-section-covers">
+    <div className="header-section-covers">
 
         <div className="container-pic">
 

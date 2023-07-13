@@ -6,23 +6,23 @@ import pic2 from '../../pictures/cover2.png';
 
 const Weekly = () => {
   return (
-    <div class="weekly">
+    <div className="weekly">
 
-        <h1 class="weekly-podcast-h1">Weekly top podcast</h1>
+        <h1 className="weekly-podcast-h1">Weekly top podcast</h1>
 
-        <div class="weekly-container">
+        <div className="weekly-container">
 
-            <div class="weekly-left">
+            <div className="weekly-left">
 
                 <img src={pic} width="100%"/>
 
-                <div class="weekly-left-about">
+                <div className="weekly-left-about">
 
-                    <div class="weekly-left-about-left">
+                    <div className="weekly-left-about-left">
 
-                        <p class="weekly-left-duration">40 Min</p>
+                        <p className="weekly-left-duration">40 Min</p>
             
-                        <p class="weekly-left-title">Embeding privacy with tim kariotis</p>
+                        <p className="weekly-left-title">Embeding privacy with tim kariotis</p>
 
                     </div>
 
@@ -34,19 +34,19 @@ const Weekly = () => {
 
             </div>
 
-            <div class="weekly-right">
+            <div className="weekly-right">
 
-                <div class="weekly-right-item">
+                <div className="weekly-right-item">
 
                     <img src={pic} width="100%"/>
 
-                    <div class="weekly-right-about">
+                    <div className="weekly-right-about">
         
-                        <div class="weekly-right-about-right">
+                        <div className="weekly-right-about-right">
         
-                            <p class="weekly-right-duration">40 Min</p>
+                            <p className="weekly-right-duration">40 Min</p>
                 
-                            <p class="weekly-right-title">Embeding privacy with tim kariotis</p>
+                            <p className="weekly-right-title">Embeding privacy with tim kariotis</p>
         
                         </div>
         
@@ -57,17 +57,17 @@ const Weekly = () => {
 
                 </div>
 
-                <div class="weekly-right-item">
+                <div className="weekly-right-item">
 
                     <img src={pic} width="100%"/>
 
-                    <div class="weekly-right-about">
+                    <div className="weekly-right-about">
         
-                        <div class="weekly-right-about-right">
+                        <div className="weekly-right-about-right">
         
-                            <p class="weekly-right-duration">40 Min</p>
+                            <p className="weekly-right-duration">40 Min</p>
                 
-                            <p class="weekly-right-title">Embeding privacy with tim kariotis</p>
+                            <p className="weekly-right-title">Embeding privacy with tim kariotis</p>
         
                         </div>
         
@@ -78,17 +78,17 @@ const Weekly = () => {
                     
                 </div>
 
-                <div class="weekly-right-item">
+                <div className="weekly-right-item">
 
                     <img src={pic} width="100%"/>
 
-                    <div class="weekly-right-about">
+                    <div className="weekly-right-about">
         
-                        <div class="weekly-right-about-right">
+                        <div className="weekly-right-about-right">
         
-                            <p class="weekly-right-duration">40 Min</p>
+                            <p className="weekly-right-duration">40 Min</p>
                 
-                            <p class="weekly-right-title">Embeding privacy with tim kariotis</p>
+                            <p className="weekly-right-title">Embeding privacy with tim kariotis</p>
         
                         </div>
         

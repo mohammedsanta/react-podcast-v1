@@ -15,11 +15,11 @@ import { FaBookReader } from "react-icons/fa";
 const RecentProduct = () => {
   return (
     
-    <div class="recent-product">
+    <div className="recent-product">
 
-        <div class="recent-product-container">
+        <div className="recent-product-container">
 
-            <h1 class="recent-product-h1">Recent product</h1>
+            <h1 className="recent-product-h1">Recent product</h1>
     
             <BoxProduct picture={pic} title="Learning to take risks be generous and make a ruckus" description="Learning to take risks be generous and make a ruckusLearning to take risks be generous and make a ruckus" />
 
@@ -32,11 +32,11 @@ const RecentProduct = () => {
 
         </div>
 
-        <div class="recent-product-topic-container">
+        <div className="recent-product-topic-container">
 
-            <h3 class="recent-product-topic-h3">Topic</h3>
+            <h3 className="recent-product-topic-h3">Topic</h3>
 
-            <div class="recent-product-topic-topics">
+            <div className="recent-product-topic-topics">
 
                 <p><FaComputer /> Tecnology</p>
                 <p><AiOutlineSecurityScan /> Security</p>
@@ -46,12 +46,12 @@ const RecentProduct = () => {
 
             </div>
 
-            <img src={pic2} class="recent-product-topic-img"/>
+            <img src={pic2} className="recent-product-topic-img"/>
 
 
-            <div class="recent-product-topic-popular">
+            <div className="recent-product-topic-popular">
 
-                <h3 class="recent-product-topic-popular-h3">Populart podcaster</h3>
+                <h3 className="recent-product-topic-popular-h3">Populart podcaster</h3>
 
                 <TopicPopular picture={pic} name="Anna" p="About"/>
             

@@ -7,11 +7,11 @@ import { FaSearch } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <div class="header-container">
+    <div className="header-container">
 
-    <img src={logo} class="header-logo" width="100px"/>
+    <img src={logo} className="header-logo" width="100px"/>
 
-    <div class="header-links">
+    <div className="header-links">
         <ul>
 
             <li><Link to="/">Home</Link> </li>
@@ -21,12 +21,12 @@ const Header = () => {
         </ul>
     </div>
 
-    <div class="header-search-social">
+    <div className="header-search-social">
 
-        <div class="search-box">
-            <button class="btn-search"><i class="fas fa-search"></i></button>
+        <div className="search-box">
+            <button className="btn-search"><i className="fas fa-search"></i></button>
             <div className="input-icon">
-                <input type="text" class="input-search" placeholder="Type to Search..."/>
+                <input type="text" className="input-search" placeholder="Type to Search..."/>
                 <FaSearch className='icon'/>
             </div>
         </div>
