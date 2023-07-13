@@ -1,21 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './home/Home';
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AllEpisodes from './home/allEpisode/AllEpisodes';
 import About from './home/about/About';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    
+    <Router>
 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/episodes' element={<AllEpisodes />} />
         <Route path='/about' element={<About />} />
       </Routes>
-
-    </div>
+    </Router>
+    
+    </>
   );
 }
 
