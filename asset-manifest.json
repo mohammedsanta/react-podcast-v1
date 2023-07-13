@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-podcast-v1/static/css/main.b57b1790.css",
-    "main.js": "/react-podcast-v1/static/js/main.251de276.js",
+    "main.js": "/react-podcast-v1/static/js/main.93ad00da.js",
     "static/js/787.6966d2df.chunk.js": "/react-podcast-v1/static/js/787.6966d2df.chunk.js",
     "static/media/w.mp3": "/react-podcast-v1/static/media/w.96632e4089bc30378384.mp3",
     "static/media/a.mp3": "/react-podcast-v1/static/media/a.4e9003ed14285248b6a4.mp3",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/react-podcast-v1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-podcast-v1/index.html",
     "main.b57b1790.css.map": "/react-podcast-v1/static/css/main.b57b1790.css.map",
-    "main.251de276.js.map": "/react-podcast-v1/static/js/main.251de276.js.map",
+    "main.93ad00da.js.map": "/react-podcast-v1/static/js/main.93ad00da.js.map",
     "787.6966d2df.chunk.js.map": "/react-podcast-v1/static/js/787.6966d2df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b57b1790.css",
-    "static/js/main.251de276.js"
+    "static/js/main.93ad00da.js"
   ]
 }
